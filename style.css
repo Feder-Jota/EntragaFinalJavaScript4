@@ -3,7 +3,6 @@
 
 body {
    background-image: url("imagenes/fondo.png");
-   background-color: rgba(171, 38, 51, 0.706);
    font-family: "Share Tech Mono", monospace;
 }
 
@@ -27,16 +26,16 @@ body {
 
 .contenedor {
    padding-left: 20px;
-   margin-top: 40px;
+   margin-top: 20px;
    margin-left: 20px;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   grid-column-gap: 10px;
+   grid-column-gap: 20px;
    grid-row-gap: 20px;
 }
 
 .tarjeta-body {
-   width: 270px;
+   width: 250;
 }
 
 .card {
@@ -53,12 +52,11 @@ body {
    display: flex;
    justify-content: center;
    padding: 10px;
-
 }
 
 .card-img img {
    width: 250px;
-   height: 270px;
+   height: 230px;
 }
 
 .card h5 {
@@ -72,9 +70,21 @@ body {
 .cardBody {
    display: flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: auto;
    align-items: center;
    padding-left: 10%;
-   padding-right: 2%;
+   padding-right: 10%;
    margin-bottom: 5px;
+}
+
+btn-secondary {
+   height: 35px;
+   font-size: 15px;
+}
+
+.col-lg-4,
+.col-lg-6,
+.col-lg-8,
+.col-lg-12 {
+   margin-top: 10px;
 }

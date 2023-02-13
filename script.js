@@ -213,12 +213,9 @@ function totalRender(array) {
   totalResumen.className = "total"
   totalResumen.innerHTML = `
       <span class="close">&times</span> 
-      <h5 class="totalh5" >Burgas: <strong>${unidades}</strong></h5>
-      <h5 class="totalh5" >Total:<strong> $ ${totalFinal.toFixed(
-    2
-  )}</strong></h5>
-      <button id="clear" style="float:right margin:10px" type="button" class="btn btn-outline-success">Pagar Burgas</button>
-      `
+      <h5 class="totalh5">Burgas:<strong>${unidades}</strong></h5>
+      <h5 class="totalh5">Total:<strong> $ ${totalFinal.toFixed(2)}</strong></h5>
+      <button id="clear"style="float:right margin:10px" type="button" class="btn btn-outline-success">Pagar Burgas</button>`
   total.append(totalResumen)
 
   let span = document.getElementsByClassName("close")[0]
