@@ -70,21 +70,7 @@ function comprobar() {
   }
 }
 
-let lonely = document.getElementById("Lonely")
-let distraction = document.getElementById("Distraction")
-let people = document.getElementById("People")
-let inside = document.getElementById("Inside")
-
 let inicio = document.getElementById("Inicio")
-let logo = document.getElementById("Logo")
-
-inicio.addEventListener("click", renderizarTodo)
-logo.addEventListener("click", renderizarTodo)
-
-lonely.addEventListener("click", filtro)
-distraction.addEventListener("click", filtro)
-people.addEventListener("click", filtro)
-inside.addEventListener("click", filtro)
 
 function filtro(e) {
   e.preventDefault()
